@@ -16,15 +16,24 @@ header{
 }
 body{
     background-color: #F5F5F5;
+    font-family: 'Roboto', sans-serif;
 }
 button{
     padding: 7px;
     height: 45px;
     border-radius: 7px;
     font-size: 17px;
-    font-family: 'Roboto', sans-serif;
     cursor: pointer;
     background-color: transparent;
+}
+h2{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+p{
+    color: #868686;
+    margin-bottom: 10px;
+    font-size: 16px;
 }
  
 /*-------------
@@ -32,9 +41,10 @@ button{
 -------------*/
 .container{
     display: flex;
-    max-width: 900px;
+    max-width: 1000px;
     margin: 0 auto;
     justify-content: space-between;
+    flex-wrap: nowrap;
     align-items: center;
     padding: 10px 0px;
 }
@@ -52,7 +62,6 @@ button{
     border-color: #a3a3a34d;
     margin-left: 6px;
     font-size: 17px;
-    font-family: 'Roboto', sans-serif;
 }
 .log{
     background-color: #FFFFFF;
@@ -72,4 +81,21 @@ button{
     background-color:#3B45B6;
     color: #fff;
     text-decoration: underline;
+}
+/*-------------
+    MAIN
+-------------*/
+.widget{
+    max-width: 35%;
+    background-color: #fff;
+    border-radius: 7px;
+    padding: 14px;
+}
+.widget div{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.widget button{
+    padding: 0px 34px;
 }
