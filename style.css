@@ -136,4 +136,8 @@ p{
     border-top: 1px solid #a3a3a34d;
     padding: 14px 0px;
 }
+.list-widget li a{
+    text-decoration: none;
+    color: #404040;
+}
 
