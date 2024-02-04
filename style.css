@@ -14,15 +14,14 @@
     flex-wrap: wrap;
     border: 2px dashed rgb(253, 3, 3);
 } */
-.col-25{
+/* .col-25{
     border: 2px dashed rgb(79, 104, 225);
-    width: 25%;
     min-height: 100px;
 }
 .col-50{
     border: 2px dashed rgb(14, 228, 82);
     width: 50%;
-}
+} */
 
 /*-------------
     GENERAL
@@ -47,8 +46,11 @@ body{
     background-color: transparent;
 }
 h2{
-    font-size: 25px;
+    font-size: 20px;
     margin-bottom: 20px;
+}
+h3{
+    font-size: 18px;
 }
 p{
     color: #868686;
@@ -56,6 +58,14 @@ p{
     font-size: 17px;
     margin-bottom: 20px;
 }
+.col-25{
+    background-color: white;
+    width: 25%;
+    min-height: 100px;
+    padding: 10px;
+    border-radius: 7px;
+}
+
  
 /*-------------
     HEADER
@@ -70,7 +80,7 @@ p{
     display: flex;
     justify-content: space-between;
     flex-wrap: nowrap;
-    align-items: center;
+    align-items: flex-start;
     max-width: 1180px;
     margin: 0 auto;
 }
@@ -110,16 +120,20 @@ p{
 /*-------------
     INFO SX
 -------------*/
-.info-sx{
-    background-color: white;
-    width: 25%;
-    min-height: 100px;
-    padding: 10px;
-    border-radius: 7px;
-}
 .info-sx .btn{
     display: block;
     width: 100%;
     margin-top: 10px;
+}
+/*-------------
+    WIDGET
+-------------*/
+.widget ul{
+    list-style: none;
+    margin: 10px 0px;
+}
+.widget li{
+    border-top: 1px solid #a3a3a34d;
+    padding: 14px 0px;
 }
 
