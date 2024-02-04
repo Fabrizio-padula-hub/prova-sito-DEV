@@ -7,18 +7,38 @@
     box-sizing: border-box;
 }
 /*-------------
+    DEBUG 
+-------------*/
+.row{
+    display: flex;
+    border: 2px dashed rgb(253, 3, 3);
+    min-height: 600px;
+}
+.col-25{
+    border: 2px dashed rgb(79, 104, 225);
+    min-height: 300px;
+    width: 25%;
+}
+.col-50{
+    border: 2px dashed rgb(14, 228, 82);
+    min-height: 300px;
+    width: 50%;
+}
+
+/*-------------
     GENERAL
 -------------*/
 header{
     background-color: #FFFFFF;
     min-height: 60px;
     box-shadow: 0px 2px 4px #0000001A;
+    margin-bottom: 15px;
 }
 body{
     background-color: #F5F5F5;
     font-family: 'Roboto', sans-serif;
 }
-button{
+.btn{
     padding: 7px;
     height: 45px;
     border-radius: 7px;
@@ -27,29 +47,31 @@ button{
     background-color: transparent;
 }
 h2{
-    font-size: 20px;
-    margin-bottom: 10px;
+    font-size: 25px;
+    margin-bottom: 20px;
 }
 p{
     color: #868686;
     margin-bottom: 10px;
-    font-size: 16px;
+    font-size: 17px;
+    margin-bottom: 20px;
 }
  
 /*-------------
     HEADER
 -------------*/
-.container{
+header > .container{
     display: flex;
-    max-width: 1000px;
-    margin: 0 auto;
     justify-content: space-between;
     flex-wrap: nowrap;
     align-items: center;
+}
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
     padding: 10px 0px;
 }
 .logo{
-
     width: 60px;
     vertical-align: middle;
 }
@@ -83,19 +105,7 @@ p{
     text-decoration: underline;
 }
 /*-------------
-    MAIN
+    WIDGET
 -------------*/
-.widget{
-    max-width: 35%;
-    background-color: #fff;
-    border-radius: 7px;
-    padding: 14px;
-}
-.widget div{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-.widget button{
-    padding: 0px 34px;
-}
+
+
