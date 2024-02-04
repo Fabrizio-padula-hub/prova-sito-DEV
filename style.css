@@ -9,19 +9,18 @@
 /*-------------
     DEBUG 
 -------------*/
-.row{
+/* .row{
     display: flex;
+    flex-wrap: wrap;
     border: 2px dashed rgb(253, 3, 3);
-    min-height: 600px;
-}
+} */
 .col-25{
     border: 2px dashed rgb(79, 104, 225);
-    min-height: 300px;
     width: 25%;
+    min-height: 100px;
 }
 .col-50{
     border: 2px dashed rgb(14, 228, 82);
-    min-height: 300px;
     width: 50%;
 }
 
@@ -32,7 +31,8 @@ header{
     background-color: #FFFFFF;
     min-height: 60px;
     box-shadow: 0px 2px 4px #0000001A;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
+    padding-top: 5px;
 }
 body{
     background-color: #F5F5F5;
@@ -60,16 +60,19 @@ p{
 /*-------------
     HEADER
 -------------*/
-header > .container{
+/* header > .container{
     display: flex;
     justify-content: space-between;
     flex-wrap: nowrap;
     align-items: center;
-}
+} */
 .container{
-    max-width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    align-items: center;
+    max-width: 1180px;
     margin: 0 auto;
-    padding: 10px 0px;
 }
 .logo{
     width: 60px;
@@ -105,7 +108,18 @@ header > .container{
     text-decoration: underline;
 }
 /*-------------
-    WIDGET
+    INFO SX
 -------------*/
-
+.info-sx{
+    background-color: white;
+    width: 25%;
+    min-height: 100px;
+    padding: 10px;
+    border-radius: 7px;
+}
+.info-sx .btn{
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+}
 
