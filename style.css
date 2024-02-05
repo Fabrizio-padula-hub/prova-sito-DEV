@@ -45,6 +45,13 @@ body{
     max-width: 1180px;
     margin: 0 auto;
 }
+.col-25{
+    width: 25%;
+}
+.col-50{
+    width: 50%;
+    padding: 0px 20px;
+}
 .btn{
     padding: 7px;
     height: 45px;
@@ -66,27 +73,16 @@ p{
     font-size: 17px;
     margin-bottom: 20px;
 }
-.col-25{
-    width: 25%;
-    min-height: 100px;
-    padding: 10px;
-    border-radius: 7px;
-}
 .info-sx, .widget, .watercooler{
     background-color: #FFFFFF;
     padding: 10px 20px;
     border-radius: 7px;
+    margin-bottom: 20px;
 }
 
 /*-------------
     HEADER
 -------------*/
-/* header > .container{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: nowrap;
-    align-items: center;
-} */
 .logo{
     width: 60px;
     vertical-align: middle;
@@ -102,7 +98,6 @@ p{
     font-size: 17px;
 }
 .log{
-    /* background-color: #FFFFFF; */
     border: none;
     color: #4B4B4B;
 }
@@ -165,9 +160,21 @@ p{
     color: #868686;
 }
 /*------------------
- WIDGET WATERCOOLER
+    MAIN
 -------------------*/
-.watercooler{
-    padding-top: 30px;
-    border-top: 20px solid#F5F5F5;
+.menu{
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 18px;
+}
+.menu :nth-child(2){
+    padding: 0px 30px;
+}
+.img-news img{
+    background-size: cover;
+    max-width: 100%;
+    margin-top: 20px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
 }
