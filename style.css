@@ -67,14 +67,17 @@ p{
     margin-bottom: 20px;
 }
 .col-25{
-    background-color: white;
     width: 25%;
     min-height: 100px;
     padding: 10px;
     border-radius: 7px;
 }
+.info-sx, .widget, .watercooler{
+    background-color: #FFFFFF;
+    padding: 10px 20px;
+    border-radius: 7px;
+}
 
- 
 /*-------------
     HEADER
 -------------*/
@@ -99,7 +102,7 @@ p{
     font-size: 17px;
 }
 .log{
-    background-color: #FFFFFF;
+    /* background-color: #FFFFFF; */
     border: none;
     color: #4B4B4B;
 }
